@@ -20,6 +20,7 @@ Route::get('/', function()
 //show storing of data to the cache
 Route::get('/store', function(){
 
+return Cache::put('key', 'value', 60);
 
 });
 
