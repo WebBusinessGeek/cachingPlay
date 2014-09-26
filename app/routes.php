@@ -16,23 +16,26 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+
+//show storing of data to the cache
 Route::get('/store', function(){
 
 
 });
 
-
+//show checking if data exists in the cache
 Route::get('/check', function(){
 
 
 });
 
-
+//show retrieval of data from the cache
 Route::get('/retrieve', function(){
 
 
 });
 
+//show removal of data from the cache
 Route::get('/remove', function(){
 
 });
