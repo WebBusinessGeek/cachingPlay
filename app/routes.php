@@ -15,3 +15,25 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/store', function(){
+
+
+});
+
+
+Route::get('/check', function(){
+
+
+});
+
+
+Route::get('/retrieve', function(){
+
+
+});
+
+Route::get('/remove', function(){
+
+});
+
